@@ -1,0 +1,9 @@
+program SyntaxErrorTest
+	int , aa;
+	int niz[], , aniz[];
+{
+
+	void main() int aint, bint, cint, dint; char chelp;{
+		aa=;
+	}
+}

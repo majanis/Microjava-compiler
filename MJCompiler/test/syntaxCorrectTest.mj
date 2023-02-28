@@ -1,0 +1,39 @@
+program SyntaxCorrectTest
+	int bb, aa;
+	int niz[], aniz[];
+	const int jedan = 1;
+	const int deset = 10;
+	const bool boolconstant=true;
+	
+{
+
+int intfunc(int aparm, int bparm) {
+return apram+bparm;
+}
+
+//sintaksa je ispravna, semantika ne!
+
+	void main() int aint, bint, cint, dint; char chelp; bool boolvar; {
+		aniz = new int[deset];
+		aa=aint;
+		bb=niz[0];
+		niz[jedan]=11;
+		boolvar = boolconstant;
+		if(boolvar==true) {
+		niz[jedan]++;
+		boolvar=false;
+		}
+		else {
+		niz[jedan] = niz[jedan] * bint;
+		}
+		while(boolvar==true) {
+		aniz[cint]=-dint;
+		cint++;
+		if(cint==deset) break;
+		}
+		[aint, aniz[jedan], bint] = niz;
+		print(deset, 2);
+		read(chelp);
+		dint = 9*(11+4);
+	}
+}

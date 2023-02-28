@@ -1,0 +1,25 @@
+program MJProgram
+	int aa;
+	int niz[], n[], aniz[];
+	const int z=7, v=3;
+{
+
+	int func() {
+	return z+v;
+	}
+
+	void main() int a, bint, cint, dint; char chelp;{
+		niz=new int[5];
+		niz[0]=3;
+		niz[1]=111;
+		niz[2]=777;
+		niz[3]=9;
+		niz[4]=88;
+		[niz[niz[0]],niz[2], ,niz[3]] = niz;
+		a=niz[0];
+		niz[4]=a;
+		print(niz[niz[0]]);
+		print(niz[2]);
+		print(niz[3]);
+	}
+}

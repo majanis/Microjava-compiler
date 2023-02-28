@@ -1,0 +1,39 @@
+program SemanticCorrectTest
+	int aa, bb;
+	char charr1[], charr2[];
+	const bool boocon1=true, boocon2=false;
+	const int intcon1=1, intcon2=2, intcon3=3;
+	const char charcon='z';
+	int intarr[];
+	incorrecttype inct;
+	
+{
+
+	int helperfunc() {
+	return intcon1*(2+boocon1);
+	}
+
+	void main() int aint, bint, cint, dint; char chelp; bool boolvar; {
+	while(charcon){
+	}
+	aint = true;
+	charr1 = new int[10];
+	charr2 = new char[-boocon1];
+	charcon--;
+	intarr = new int[8+intcon1];
+	intarr[1]='p';
+	intarr[intcon2] = 888; //indeks je dva
+	print(charr1, 3); //ovo je sintaksna
+	print(charcon);
+	aint = intcon1;
+	read(intarr);
+	break;
+	continue;
+	cint = 13/1;
+	bint = dint / cint;
+	[,aint,intarr[bint]] = intarr;
+	[intarr]=chelp;
+	intarr[bint+charcon]++; //indeks je dva
+	return 9;
+	}
+}

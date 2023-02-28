@@ -1,0 +1,215 @@
+
+  pos: instruction operands
+     | expressionstack
+-----------------------------
+   20: enter       0 5 
+     | 
+   23: getstatic   1 
+     | 0 
+   26: const_5     
+     | 0 5 
+   27: newarray    1 
+     | 0 2 
+   29: ???         
+     | 2 0 2 
+   30: pop         
+     | 2 0 
+   31: pop         
+     | 2 
+   32: putstatic   1 
+     | 
+   35: getstatic   1 
+     | 2 
+   38: const_0     
+     | 2 0 
+   39: const_3     
+     | 2 0 3 
+   40: astore      
+Arraylength = 5
+Address = 2
+Index = 0
+Value = 3
+
+     | 
+   41: getstatic   1 
+     | 2 
+   44: const_1     
+     | 2 1 
+   45: const       111 
+     | 2 1 111 
+   50: astore      
+Arraylength = 5
+Address = 2
+Index = 1
+Value = 111
+
+     | 
+   51: getstatic   1 
+     | 2 
+   54: const_2     
+     | 2 2 
+   55: const       777 
+     | 2 2 777 
+   60: astore      
+Arraylength = 5
+Address = 2
+Index = 2
+Value = 777
+
+     | 
+   61: getstatic   1 
+     | 2 
+   64: const_3     
+     | 2 3 
+   65: const       9 
+     | 2 3 9 
+   70: astore      
+Arraylength = 5
+Address = 2
+Index = 3
+Value = 9
+
+     | 
+   71: getstatic   1 
+     | 2 
+   74: const_4     
+     | 2 4 
+   75: const       88 
+     | 2 4 88 
+   80: astore      
+Arraylength = 5
+Address = 2
+Index = 4
+Value = 88
+
+     | 
+   81: getstatic   1 
+     | 2 
+   84: getstatic   1 
+     | 2 2 
+   87: const_0     
+     | 2 2 0 
+   88: aload       
+     | 2 3 
+   89: getstatic   1 
+     | 2 3 2 
+   92: const_2     
+     | 2 3 2 2 
+   93: getstatic   1 
+     | 2 3 2 2 2 
+   96: const_3     
+     | 2 3 2 2 2 3 
+   97: getstatic   1 
+     | 2 3 2 2 2 3 2 
+  100: arraylength 
+     | 2 3 2 2 2 3 5 
+  101: const_4     
+     | 2 3 2 2 2 3 5 4 
+  102: jge         5 
+     | 2 3 2 2 2 3 
+  107: getstatic   1 
+     | 2 3 2 2 2 3 2 
+  110: const_3     
+     | 2 3 2 2 2 3 2 3 
+  111: aload       
+     | 2 3 2 2 2 3 9 
+  112: astore      
+Arraylength = 5
+Address = 2
+Index = 3
+Value = 9
+
+     | 2 3 2 2 
+  113: getstatic   1 
+     | 2 3 2 2 2 
+  116: const_1     
+     | 2 3 2 2 2 1 
+  117: aload       
+     | 2 3 2 2 111 
+  118: astore      
+Arraylength = 5
+Address = 2
+Index = 2
+Value = 111
+
+     | 2 3 
+  119: getstatic   1 
+     | 2 3 2 
+  122: const_2     
+     | 2 3 2 2 
+  123: aload       
+     | 2 3 111 
+  124: store       -1 
+     | 2 3 
+  126: getstatic   1 
+     | 2 3 2 
+  129: const_0     
+     | 2 3 2 0 
+  130: aload       
+     | 2 3 3 
+  131: astore      
+Arraylength = 5
+Address = 2
+Index = 3
+Value = 3
+
+     | 
+  132: getstatic   1 
+     | 2 
+  135: const_0     
+     | 2 0 
+  136: aload       
+     | 3 
+  137: store_0     
+     | 
+  138: getstatic   1 
+     | 2 
+  141: const_4     
+     | 2 4 
+  142: load_0      
+     | 2 4 3 
+  143: astore      
+Arraylength = 5
+Address = 2
+Index = 4
+Value = 3
+
+     | 
+  144: getstatic   1 
+     | 2 
+  147: getstatic   1 
+     | 2 2 
+  150: const_0     
+     | 2 2 0 
+  151: aload       
+     | 2 3 
+  152: aload       
+     | 3 
+  153: const_5     
+     | 3 5 
+  154: print           3
+     | 
+  155: getstatic   1 
+     | 2 
+  158: const_2     
+     | 2 2 
+  159: aload       
+     | 111 
+  160: const_5     
+     | 111 5 
+  161: print         111
+     | 
+  162: getstatic   1 
+     | 2 
+  165: const_3     
+     | 2 3 
+  166: aload       
+     | 3 
+  167: const_5     
+     | 3 5 
+  168: print           3
+     | 
+  169: exit        
+     | 
+  170: return      
+Completion took 83 ms
